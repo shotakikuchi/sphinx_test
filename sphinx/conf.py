@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# doc documentation build configuration file, created by
+# sphinx documentation build configuration file, created by
 # sphinx-quickstart on Thu May 31 22:54:02 2018.
 #
 # This file is execfile()d with the current directory set to its
@@ -46,9 +46,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'doc'
-copyright = '2018, doc'
-author = 'doc'
+project = 'sphinx'
+copyright = '2018, sphinx'
+author = 'sphinx'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -222,8 +222,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'doc.tex', 'doc Documentation',
-     'doc', 'manual'),
+    (master_doc, 'sphinx.tex', 'sphinx Documentation',
+     'sphinx', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -252,7 +252,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'doc', 'doc Documentation',
+    (master_doc, 'sphinx', 'sphinx Documentation',
      [author], 1)
 ]
 
@@ -266,8 +266,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'doc', 'doc Documentation',
-     author, 'doc', 'One line description of project.',
+    (master_doc, 'sphinx', 'sphinx Documentation',
+     author, 'sphinx', 'One line description of project.',
      'Miscellaneous'),
 ]
 
